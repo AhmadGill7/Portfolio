@@ -17,7 +17,7 @@ User-agent: Slurp
 Allow: /
 
 # Sitemap location
-# Sitemap: https://muhammadahmad.me/sitemap.xml
+Sitemap: https://muhammadahmad.me/sitemap.xml
 
 # Crawl delay
 Crawl-delay: 1
