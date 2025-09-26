@@ -136,10 +136,10 @@ const Experience = () => {
           <ExperienceEntry
             id="netixsol"
             title="1. NetixSol"
-            subtitle="Associate Software Engineer"
+            subtitle="Software Engineer"
             date="April 2025 - PRESENT"
             description={[
-              'As an Associate Software Engineer at NetixSol, I develop and maintain Web3 and blockchain applications with a focus on DeFi protocols and smart contract integrations. Working with modern frameworks like React, Next.js, and Node.js to create seamless user experiences for decentralized applications.',
+              'As a Software Engineer at NetixSol, I develop and maintain Web3 and blockchain applications with a focus on DeFi protocols and smart contract integrations. Working with modern frameworks like React, Next.js, and Node.js to create seamless user experiences for decentralized applications.',
               'Collaborating closely with blockchain architects to implement complex smart contract functionality and ensure secure, efficient interactions between frontend interfaces and on-chain logic. Contributing to the full development lifecycle from concept to deployment while maintaining scalable MERN stack applications.'
             ]}
             technologies={technologiesNetixSol}

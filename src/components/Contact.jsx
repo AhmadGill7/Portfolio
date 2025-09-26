@@ -15,7 +15,7 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Muhammad Ahmad | Full-Stack & Web3 Developer</title>
-        <meta name="description" content="Get in touch with Muhammad Ahmad, an Associate Software Engineer and Full-Stack & Web3 Developer specializing in blockchain technologies and web development." />
+        <meta name="description" content="Get in touch with Muhammad Ahmad, a Software Engineer and Full-Stack & Web3 Developer specializing in blockchain technologies and web development." />
       </Helmet>
       <Container maxWidth="lg" id="contact">
         <Box

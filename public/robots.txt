@@ -1,3 +1,23 @@
 User-agent: *
 Allow: /
-Sitemap: https://ahmadgill-portfolio.netlify.app/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap location
+# Sitemap: https://muhammadahmad.me/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

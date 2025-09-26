@@ -1,6 +1,6 @@
 # Muhammad Ahmad - Portfolio 🚀
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://ahmadgill-portfolio.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://muhammadahmad.me/)
 
 A modern developer portfolio showcasing full-stack development expertise and Web3 exploration.
 
@@ -21,7 +21,7 @@ A modern developer portfolio showcasing full-stack development expertise and Web
 1. Clone the repository:
    ```
    bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/ahmadgill7/portfolio.git
    ```
 2. Install dependencies:
 

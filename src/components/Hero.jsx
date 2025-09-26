@@ -12,12 +12,12 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        <title>Muhammad Ahmad | Associate Software Engineer | Full-Stack & Web3 Developer</title>
-        <meta name="description" content="Muhammad Ahmad is an Associate Software Engineer specializing in full-stack development and Web3 technologies including smart contracts, DeFi protocols, React.js, Node.js, and Solidity." />
-        <meta name="keywords" content="Muhammad Ahmad, Associate Software Engineer, Web3 developer, Blockchain engineer, Smart contracts, DeFi, React developer, Full-stack developer, Solidity, Ethereum, dApps" />
+        <title>Muhammad Ahmad | Software Engineer | Full-Stack & Web3 Developer</title>
+        <meta name="description" content="Muhammad Ahmad is a Software Engineer specializing in full-stack development and Web3 technologies including smart contracts, DeFi protocols, React.js, Node.js, and Solidity." />
+        <meta name="keywords" content="Muhammad Ahmad, Software Engineer, Web3 developer, Blockchain engineer, Smart contracts, DeFi, React developer, Full-stack developer, Solidity, Ethereum, dApps" />
         <meta name="author" content="Muhammad Ahmad" />
-        <meta property="og:title" content="Muhammad Ahmad | Associate Software Engineer | Web3 Developer" />
-        <meta property="og:description" content="Associate Software Engineer specializing in full-stack development and Web3 technologies" />
+        <meta property="og:title" content="Muhammad Ahmad | Software Engineer | Web3 Developer" />
+        <meta property="og:description" content="Software Engineer specializing in full-stack development and Web3 technologies" />
       </Helmet>
       <Container maxWidth="lg" id="home">
         <header>
@@ -40,7 +40,7 @@ const Hero = () => {
                 component="img"
                 src={myProfile}
                 loading="lazy"
-                alt="Muhammad Ahmad - Associate Software Engineer and Web3 Developer"
+                alt="Muhammad Ahmad - Software Engineer and Web3 Developer"
                 sx={{
                   width: { xs: 120, md: 150 },
                   height: { xs: 120, md: 150 },
@@ -71,7 +71,7 @@ const Hero = () => {
                   opacity: 0.85
                 }}
               >
-                Associate Software Engineer
+                Software Engineer
               </Typography>
 
               <Typography

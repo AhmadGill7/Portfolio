@@ -1,0 +1,62 @@
+{
+    "name": "Muhammad Ahmad - Portfolio",
+    "short_name": "Ahmad Portfolio",
+    "description": "Portfolio of Muhammad Ahmad, Software Engineer specializing in Full-Stack and Web3 Development",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/Logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/Logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/LogoWithName.png",
+            "sizes": "1200x630",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "categories": [
+        "business",
+        "productivity",
+        "technology",
+        "portfolio",
+        "developer",
+        "web3",
+        "blockchain",
+        "software",
+        "Web3 Developer",
+        "Software Engineer",
+        "Full-Stack Developer",
+        "React Developer",
+        "JavaScript Developer",
+        "Frontend Developer",
+        "Backend Developer",
+        "Node.js Developer",
+        "Solidity Developer",
+        "Blockchain Engineer"
+    ],
+    "lang": "en-US",
+    "dir": "ltr",
+    "scope": "/",
+    "screenshots": [
+        {
+            "src": "/LogoWithName.png",
+            "sizes": "1200x630",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Muhammad Ahmad Portfolio Preview"
+        }
+    ]
+}
