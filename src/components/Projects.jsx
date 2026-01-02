@@ -1,7 +1,7 @@
 import { Box, Typography, Container, Grid, Link, } from '@mui/material';
 import PopitLogo from "../assets/PopitLogoImage.png";
 import KaspaFinanceLogo from "../assets/KF_05.png";
-import KaspaBridgeLogo from "../assets/KF_05.png";
+import KaspaBridgeLogo from "../assets/kaspaBridgeLogo.png";
 import GemLaunchLogo from "../assets/gemlaunchLogo.png";
 // import PerkSwapLogo from "../assets/PerkSwapLogo.svg";
 import CroCreateLogo from "../assets/CroCreate Full Rez.png";
