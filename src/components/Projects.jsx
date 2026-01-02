@@ -1,6 +1,8 @@
 import { Box, Typography, Container, Grid, Link, } from '@mui/material';
 import PopitLogo from "../assets/PopitLogoImage.png";
 import KaspaFinanceLogo from "../assets/KF_05.png";
+import KaspaBridgeLogo from "../assets/KF_05.png";
+import GemLaunchLogo from "../assets/gemlaunchLogo.png";
 // import PerkSwapLogo from "../assets/PerkSwapLogo.svg";
 import CroCreateLogo from "../assets/CroCreate Full Rez.png";
 import { useMemo, useState } from 'react';
@@ -11,16 +13,28 @@ const Projects = () => {
 
   const projects = useMemo(() => [
     {
-      title: 'Kaspa Finance',
-      description: 'Designed and developed Kaspa Finance, an end-to-end DeFi super-app on Kaspa’s EVM L2, enabling users to swap, stake, farm, and earn rewards through a unified platform',
-      logo: KaspaFinanceLogo,
-      url: 'https://app.kaspafinance.io'
+      "title": "Kaspa Finance",
+      "description": "Designed and developed Kaspa Finance, an end-to-end DeFi super-app on Kaspa’s KVM, enabling users to swap, stake, and earn rewards through a unified platform",
+      "logo": KaspaFinanceLogo,
+      "url": "https://app.kaspafinance.io"
     },
     {
-      title: 'Popit Game',
-      description: 'innovative blockchain-integrated game where users bet cryptocurrency to participate in real-time game-play.',
-      logo: PopitLogo,
-      url: 'https://devpopitv2.netlify.app/'
+      "title": "Kaspa Bridge",
+      "description": "Developed Kaspa Bridge, a cross-chain bridge connecting Kaspa, BSC, Ethereum, and Base using Hyperlane, enabling seamless liquidity transfers across multiple blockchains",
+      "logo": KaspaBridgeLogo,
+      "url": "https://kaspabridge.com/"
+    },
+    {
+      "title": "GemLaunch",
+      "description": "Built GemLaunch, a comprehensive token launch platform on Monad EVM supporting launchpads, private sales, token locks, and liquidity management for decentralized projects",
+      "logo": GemLaunchLogo,
+      "url": "https://monad.gemlaunch.io/"
+    },
+    {
+      "title": "Popit Game",
+      "description": "Innovative blockchain-integrated game where users bet cryptocurrency to participate in real-time gameplay",
+      "logo": PopitLogo,
+      "url": "https://devpopitv2.netlify.app/"
     },
     // {
     //   title: 'PerkSwap',
@@ -29,11 +43,11 @@ const Projects = () => {
     //   url: 'https://perkswap.finance'
     // },
     {
-      title: 'Cro Create',
-      description: 'Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth',
-      logo: CroCreateLogo,
-      url: 'https://crocreate.app'
-    },
+      "title": "Cro Create",
+      "description": "Web3 platform on Cronos Chain offering tools for token creation, liquidity management, and airdrops, empowering decentralized community growth",
+      "logo": CroCreateLogo,
+      "url": "https://crocreate.app"
+    }
   ], []);
 
   return (
