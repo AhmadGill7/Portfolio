@@ -20,7 +20,7 @@ const Footer = () => {
       icon: GitHub,
     },
     { icon: Instagram, href: 'https://www.instagram.com/handsom.ware', label: 'Instagram' },
-    { icon: WhatsApp, href: 'https://wa.me/923089900772', label: 'Whatsapp' },
+    { icon: WhatsApp, href: 'https://wa.me/923323141441', label: 'Whatsapp' },
   ];
 
   return (
