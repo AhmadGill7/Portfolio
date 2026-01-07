@@ -58,6 +58,7 @@ const Navbar = () => {
         { label: 'About Me', target: 'about' },
         { label: 'Experience', target: 'experience' },
         { label: 'Projects', target: 'projects' },
+        { label: 'Resume', url: 'https://rxresu.me/ahmadgillwebdev/muhammad-ahmad-mern-stack', isExternal: true },
         { label: 'Contact', target: 'contact', isWhite: true },
     ];
 
@@ -103,14 +104,20 @@ const Navbar = () => {
                     alignItems: 'center'
                 }}>
                     {navItems.slice(0, -1).map((item) => (
-                        <EnhancedTransparentNavButton
-                            key={item.target}
-                            target={item.target}
-                            label={item.label}
-                            onClick={() => {
-                                scrollToElement(item.target, 100);
-                            }}
-                        />
+                        item.isExternal ? (
+                            <TransparentNavButton
+                                key={item.label}
+                                Title={item.label}
+                                onClick={() => window.open(item.url, '_blank', 'noopener,noreferrer')}
+                            />
+                        ) : (
+                            <EnhancedTransparentNavButton
+                                key={item.target}
+                                target={item.target}
+                                label={item.label}
+                                onClick={() => scrollToElement(item.target, 100)}
+                            />
+                        )
                     ))}
                     <WhiteButton
                         onClick={() => scrollToElement('contact', 100)}
@@ -185,11 +192,15 @@ const Navbar = () => {
                                 />
                             ) : (
                                 <TransparentNavButton
-                                    key={item.target}
+                                    key={item.target || item.label}
                                     Title={item.label}
                                     onClick={() => {
                                         handleDrawerToggle();
-                                        scrollToElement(item.target, 100);
+                                        if (item.isExternal) {
+                                            window.open(item.url, '_blank', 'noopener,noreferrer');
+                                        } else {
+                                            scrollToElement(item.target, 100);
+                                        }
                                     }}
                                 />
                             )
