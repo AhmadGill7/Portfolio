@@ -2,11 +2,18 @@
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WBW6LQ8K');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WBW6LQ8K");
+    </script>
     <!-- End Google Tag Manager -->
     <!-- Open Graph / Facebook -->
     <!-- Twitter -->
@@ -69,6 +76,12 @@
           {
             "@type": "ListItem",
             "position": 5,
+            "name": "Resume",
+            "item": ""
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
             "name": "Contact",
             "item": "https://muhammadahmad.me/#contact"
           }
@@ -270,13 +283,18 @@
 
     <!-- Load Google Fonts for better performance -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600&family=Montserrat:wght@400;500;600;700&family=Lora:wght@400;500;600&family=Source+Code+Pro:wght@400;500&display=swap"
-      rel="stylesheet" />
+      rel="preconnect"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600&family=Montserrat:wght@400;500;600;700&family=Lora:wght@400;500;600&family=Source+Code+Pro:wght@400;500&display=swap" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBW6LQ8K"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WBW6LQ8K"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
