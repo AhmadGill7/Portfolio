@@ -19,7 +19,7 @@ const Footer = () => {
       href: 'https://github.com/ahmadgill7',
       icon: GitHub,
     },
-    { icon: Instagram, href: 'https://www.instagram.com/muhammad.ahmaddddd', label: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/ahmadd.gill', label: 'Instagram' },
     { icon: WhatsApp, href: 'https://wa.me/923323141441', label: 'Whatsapp' },
   ];
 

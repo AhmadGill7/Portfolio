@@ -58,7 +58,7 @@ const Navbar = () => {
         { label: 'About Me', target: 'about' },
         { label: 'Experience', target: 'experience' },
         { label: 'Projects', target: 'projects' },
-        { label: 'Resume', url: 'https://rxresu.me/ahmadgillwebdev/muhammad-ahmad-mern-stack', isExternal: true },
+        { label: 'Resume', url: 'https://rxresu.me/ahmadgillwebdev/robust-gray-termite', isExternal: true },
         { label: 'Contact', target: 'contact', isWhite: true },
     ];
 
