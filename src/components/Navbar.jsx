@@ -241,8 +241,10 @@ const Navbar = () => {
                         backgroundColor: '#080808',
                         border: '1px solid rgba(255,255,255,0.08)',
                         borderRadius: { xs: 0, sm: '16px' },
-                        minHeight: fullScreen ? '100vh' : '85vh',
+                        height: fullScreen ? '100vh' : '90vh',
                         overflow: 'hidden',
+                        display: 'flex',
+                        flexDirection: 'column',
                     }
                 }}
                 slotProps={{
@@ -311,11 +313,11 @@ const Navbar = () => {
                 </Box>
 
                 {/* PDF Viewer */}
-                <DialogContent sx={{ p: { xs: 1.5, sm: 2.5 }, flex: 1, display: 'flex', flexDirection: 'column' }}>
+                <DialogContent sx={{ p: { xs: 1.5, sm: 2.5 }, flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
                     <Box sx={{
                         flex: 1,
                         width: '100%',
-                        height: fullScreen ? 'calc(100vh - 80px)' : '72vh',
+                        minHeight: 0,
                         borderRadius: '10px',
                         overflow: 'hidden',
                         border: '1px solid rgba(255,255,255,0.07)',
@@ -326,7 +328,7 @@ const Navbar = () => {
                             src="/Muhammad Ahmad Resume.pdf#view=FitH"
                             width="100%"
                             height="100%"
-                            style={{ border: 'none', display: 'block', minHeight: '480px' }}
+                            style={{ border: 'none', display: 'block', width: '100%', height: '100%' }}
                         />
                     </Box>
                     {/* Mobile download button */}
