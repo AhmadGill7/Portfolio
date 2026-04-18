@@ -1,6 +1,6 @@
 # Muhammad Ahmad - Portfolio 🚀
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://muhammadahmad.me/)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://muhammadahmad.dev/)
 
 A modern developer portfolio showcasing full-stack development expertise and Web3 exploration.
 
