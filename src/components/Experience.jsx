@@ -149,7 +149,7 @@ const Experience = () => {
           <ExperienceEntry
             id="codixsol"
             title="2. Codix Sol"
-            subtitle="Web Developer"
+            subtitle="Associate Software Engineer"
             date="July 2024 - April 2025"
             description={[
               'As a Full-Stack Developer at CodixSol, I developed robust web solutions using the MERN stack. Optimized enterprise application performance through modular architecture and reusable components, improving codebase efficiency. Delivered scalable solutions meeting strict deadlines while solving complex technical challenges.',
@@ -162,7 +162,7 @@ const Experience = () => {
           <ExperienceEntry
             id="gamicacloud"
             title="3. Gamica Cloud"
-            subtitle="Web Developer"
+            subtitle="Software Engineer Intern"
             date="February 2024 - July 2024"
             description={[
               'During my 6-month MERN stack internship at Gamica Cloud, I developed 5+ full-stack applications using React, Node.js, Express, and MongoDB, while collaborating with a team of developers to optimize workflows and reduce project delivery timelines by 15%.',
